@@ -1,0 +1,8 @@
+As someone who has spent a lot of time doing diagnosing problems in live networks and transaction processing systems, I have found the concept of counting (and plotting) event rates central.  When digging into a complex legacy system, the most obvious data you can get your hands on are log files.  Many of the lines in a log file are going to record the arrival of an event of some kind.  It could be the beginning of a transaction, the end of one, the fact that a certain code path that should should almost never reached has been (a programmer's way of announcing "gee, that's funny"),  or many other things.
+
+As soon as you see a few types of lines in a log file interesting (and you can write a simple grep expression to isolate those lines from each other), it becomes possible that the rate of occurance of those lines over time might yield clues as to what is plaguing your system.  What makes this so powerful is that you hardly have to know anything about the mechanism behind those lines, or why they are suddenly occuring more frequently, for a plot of their rates to help you find other clues.  You only have to know that they are suspicious.
+
+I started this repository to publish a python script that I have been using for over 10 years and that I keep dusting off and returning to.  My apologies that this initial commit has so little how-to beyond the script itself.  I hope to flesh this out considerably in the coming months.
+
+Christopher Lewis Marshall
+christopherlmarshall@gmail.com
