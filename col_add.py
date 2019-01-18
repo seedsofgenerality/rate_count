@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Copyright (c) 2017 Christopher Lewis Marshall
+# Copyright (c) 2019 Christopher Lewis Marshall
 # file_summary: inserts fixed text values listed column numbers
 # for example:
 #    col_add.py 0,abc 5,def
