@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# Copyright (c) 2017 Christopher Lewis Marshall
+#!/usr/bin/env python
+# Copyright (c) 2019 Christopher Lewis Marshall
 # file_summary: stdin->stdout filter demonstrating binning of time series data.  Counts tagged time series data, aggregates values over bin_size, and writes out tagged, binned data.
 # input parameters:
 #    bin_size

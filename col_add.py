@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # Copyright (c) 2019 Christopher Lewis Marshall
 # file_summary: inserts fixed text values listed column numbers
 # for example:
